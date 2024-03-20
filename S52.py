@@ -20,7 +20,7 @@ If you pass in two arguments, the first is taken as the lower bound.
 An optional third argument can give a step; if it is used, Python adds the step to each successive integer in the result(the
 step defaults to 1).
 '''
-print(range(5)) # De la 0 până la acel număr fără acel număr 
+print(range(5)) # De la 0 până la acel număr fără acel număr
 print(list(range(5)))
 print(list(range(1, 5)))
 print(list(range(1, 100, 5)))  # we use list to print the actual numbers in the sequence
@@ -58,6 +58,11 @@ print(suma(3, 5))
 # Print all the prime numbers from 1 to 100. Define is_prime function()
 
 def is_prime(n):
+    if n == 1:
+        return False
+    for i in range(2, n//2+1):
+        if n % i == 0:
+            return False
     return True
 
 
