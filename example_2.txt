@@ -1,0 +1,4 @@
+1 Ana 9
+2 Ioana 10
+3 Dragos 10
+4 Andrei 5
