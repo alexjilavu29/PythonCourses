@@ -62,7 +62,3 @@ file.close()
 
 file= open('example123','r')
 print(file.read())
-
-import csv
-
-# Folosim un with statement
