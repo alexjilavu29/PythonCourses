@@ -85,14 +85,63 @@ print(statistici)
 
 '''Sa se afiseze o histograma a continentelor care consuma cea mai multa bere  '''
 
+consum_bere_continent = drinks.groupby('continent')['beer_servings'].sum().sort_values(ascending=False)
+
+consum_bere_continent.plot(kind='bar', color='skyblue')
+
+plt.title('Consumul Total de Bere pe Continente')
+plt.xlabel('Continent')
+plt.ylabel('Consum Total de Bere')
+plt.xticks(rotation=45)
+
+plt.show()
+
 '''Sa se citeasca setul de date tips intr-un dataframe '''
+
+tips = pd.read_csv("tips.csv")
+print(tips)
 
 '''Au fost mai multi clienti de gen masculin sau feminin?'''
 
+if tips["gender"].value_counts()["Female"] > tips["gender"].value_counts()["Male"]:
+    print("Mai multi clienti de gen feminin")
+elif tips["gender"].value_counts()["Female"] < tips["gender"].value_counts()["Male"]:
+    print("Mai multi clienti de gen masculin")
+else:
+    print("Sunt la fel de multi clienti de gen masculin si feminin")
+
 '''pentru fiecare gen, sa se calculeze valoarea minima, valoarea maxima si media tip-ului acordat'''
+
+stat_tip = tips.groupby('gender')['tip'].agg(['min','max','mean'])
+print(stat_tip)
 
 '''pentru fiecare tip de masa (Dinner/Lunch) sa se calculeze procentul de clienti - barbati/femei'''
 
+grupat = tips.groupby(['time', 'gender']).size().reset_index(name='counts')
+print(grupat)
+total_per_time = grupat.groupby('time')['counts'].transform('sum')
+print(total_per_time)
+grupat['percentage'] = (grupat['counts'] / total_per_time) * 100
+print(grupat)
+
 '''Sa se afiseze grafic top 5 cele mai mari note de plata '''
 
+top_5_note = tips.sort_values(by='total_bill', ascending=False).head(5)
+
+plt.figure(figsize=(10, 6))
+plt.bar(top_5_note.index, top_5_note['total_bill'], color='skyblue')
+plt.title('Top 5 Cele Mai Mari Note de Plată')
+plt.xlabel('Indexul Notelor de Plată')
+plt.ylabel('Valoarea Notei de Plată')
+plt.xticks(top_5_note.index)
+plt.show()
+
 '''folosind while sa se calculeze media a 5 numere primite de la tastatura '''
+
+media = 0
+i = 1
+while i != 6 :
+    media += (int)(input(f"Inserati numarul {i}:"))
+    i+=1
+media/=5
+print(f"Media celor 5 numere introduse este {media}")
