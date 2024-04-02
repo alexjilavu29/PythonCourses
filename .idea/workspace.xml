@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8150dd25-6d35-42b5-bf08-277a6fcef3ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/S6_exercitii_aditionale.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S6_exercitii_aditionale.py" beforeDir="false" afterPath="$PROJECT_DIR$/S6_exercitii_aditionale.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,7 @@
   "keyToString": {
     "Python.S6.executor": "Run",
     "Python.S6_EX.executor": "Run",
+    "Python.S6_exercitii_aditionale.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
