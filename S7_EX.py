@@ -21,37 +21,48 @@ print(df.dtypes)
 df = pd.read_csv('phone_data.csv')
 # Numărăm înregistrările din coloana 'item' @todo
 print('Numar inregistrari')
+print(df["item"].count())
 
 # Găsim durata maximă din coloana 'duration' @todo
 print('Durata maxima a unei convorbiri/transfer date')
+print(df["duration"].max())
+
 
 # Suma durateleor pentru apeluri din coloana 'duration'@todo
 
 print('Numarul total de secunde la apeluri')
+print(df.loc[df["item"] == "call", "duration"].sum())
 
 # Numărăm apelurile din fiecare lună @todo
 
 print('Numarul de apeluri in fiecare luna')
+print(df["month"].value_counts())
+
 
 # Aflăm numărul de rețele unice din 'network' @todo
 print('Numar de retele - elimina duplicatele')
+print(df["network"].nunique())
 
 # Exemplu 3: Statistici descriptive cu describe()
 df = pd.read_csv('phone_data.csv')
 # Obținem statistici descriptive pentru 'network_type' și 'duration' @todo
 print('Statistici descriptive')
+print(df[["network_type","duration"]].describe(include = "all"))
 
 
 # Exemplu 4: Posibilități de grupare
 df = pd.read_csv('phone_data.csv')
 
 # Afișăm cheile grupurilor pentru 'item'
+print(df.groupby(['item']).groups)
 print(df.groupby(['item']).groups.keys())
 
 # Numărăm apelurile din grupul 'call'
 print(len(df.groupby(['item']).groups['call']))
 
 # Afișăm cheile grupurilor pentru 'month'
+
+print(df.groupby(['month']).groups.keys())
 
 # Numărăm înregistrările pentru luna '2014-11' @todo
 
@@ -67,10 +78,14 @@ print(df.groupby('item').first())
 # Suma duratelor pentru fiecare lună @todo
 print('Durata insumata pentru fiecare luna')
 
+print(df.groupby('duration').sum())
+
+
 # Suma duratelor pentru apeluri în funcție de rețea
 print('Durata insumata pe convorbiri (calls), pentru fiecare retea')
 
 print(df[df['item'] == 'call'].groupby('network')['duration'].sum())
+print(df.loc[df['item'] == 'call'].groupby('network')['duration'].sum())
 
 # Exemplu 6: Grupări complexe
 df = pd.read_csv('phone_data.csv')
@@ -83,12 +98,12 @@ print(df.groupby(['month', 'item'])['date'].count())
 df = pd.read_csv('phone_data.csv')
 
 # Grupează după 'month' și 'item' și calculează statistici pentru fiecare grup
-print(df.groupby(['month', 'item']).agg({'duration': sum,  # suma duratelor
+print(df.groupby(['month', 'item']).agg({'duration': "sum",  # suma duratelor
                                          'network_type': "count",  # numărul de tipuri de rețele
                                          'date': 'first'}))  # prima apariție (dată) pentru fiecare grup
 
 # Salvăm rezultatul agregării într-un nou fișier csv
-df1 = df.groupby(['month', 'item']).agg({'duration': sum,
+df1 = df.groupby(['month', 'item']).agg({'duration': "sum",
                                          'network_type': "count",
                                          'date': 'first'})
 df1.to_csv('agregare.csv')
@@ -96,9 +111,9 @@ df1.to_csv('agregare.csv')
 # Exemplu 8: Aplicarea mai multor funcții unei singure coloane din grup
 df = pd.read_csv('phone_data.csv')
 # Grupează după 'month' și 'item'. Calculează statistici pentru fiecare grup
-print(df.groupby(['month', 'item']).agg({'duration': [min, max, sum],  # min, max și sum pentru 'duration'
+print(df.groupby(['month', 'item']).agg({'duration': ["min", "max", "sum"],  # min, max și sum pentru 'duration'
                                          'network_type': "count",  # numărul de 'network_type'
-                                         'date': [min, 'first',
+                                         'date': ["min", 'first',
                                                   'nunique']}))  # min, prima apariție și numărul de date unice
 
 # Prelucrarea seturilor de date cu merge / join dataframes
