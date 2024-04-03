@@ -7,6 +7,8 @@ Se observa ca fiecare df are anumite coloane empty. sa se elimine acestea. '''
 cars1 = pd.read_csv("cars1_processed.csv")
 cars2 = pd.read_csv("cars2_processed.csv")
 
+cars11 = pd.read_csv("cars1.csv",sep=",")
+print(cars11)
 
 '''Numarul de observatii pentru fiecare df '''
 

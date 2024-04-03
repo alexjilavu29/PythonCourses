@@ -104,21 +104,24 @@ Using loc: Selected rows 1 through 3 (inclusive of both ends).
 Using iloc: Selected the first three rows.
 '''
 
-
+print(df.loc[1:3])
+print(df.iloc[1:4])
 
 '''Calculate the total Revenue across all stores.'''
 
+print(df["Revenue"].sum())
 
 '''Calculate the average AreaStore size.'''
 
-
+print(df["AreaStore"].mean())
 
 '''Find the maximum Checkout Number across all stores. '''
 
-
+print(df["Checkout Number"].max())
 
 '''Identify the store with the smallest AreaStore.'''
 
+print(df.loc[df["AreaStore"]==df["AreaStore"].min(), ["Store_Number","AreaStore"]])
 
 '''------------------Group BY ----------------------------'''
 
@@ -151,11 +154,11 @@ as_index ->is a boolean indicating whether to group by the index (default is Tru
 
 '''Calculate the total revenue for each Type of store. '''
 
-
+print(df.groupby(by="Type")["Revenue"].sum())
 
 '''Find the average Checkout Number for each Old/New category.'''
 
-
+print(df.groupby("Old/New")["Checkout Number"].mean())
 
 '''----------------------'Aggregation'---------------------------'''
 '''
@@ -165,6 +168,7 @@ making it highly versatile for data summarization tasks. '''
 
 '''Find the total, average, and maximum revenue for each Type of store.'''
 
+print(df.groupby(by="Type")["Revenue"].agg(["sum","mean","max"]))
 
 '''Identify the store with the highest revenue for each Type.'''
 '''-involves two steps: first, using groupby and idxmax to find the index of the row with
@@ -174,11 +178,19 @@ and second, using loc to retrieve the complete information for these rows.'''
 # First, find the index of the max revenue per Type
 # Then, use loc to get the rows corresponding to these indices
 
+aux = df.groupby("Type")["Revenue"].idxmax()
+print(df.loc[ aux, "Store_Number"])
+
 
 '''For each Type of store, find the revenue of the store with the highest AreaStore, and its respective Store_Number.'''
 
 # Group by 'Type' and then apply a custom function to each group
 
+def highest_area_store_revenue(group):
+    highest_area_idx = group["AreaStore"].idxmax()
+    return df.loc[highest_area_idx, ["Revenue","Store_Number"]]
+
+print(df.groupby("Type").apply(highest_area_store_revenue, include_groups=False))
 
 '''_______________Graphics_________________'''
 
