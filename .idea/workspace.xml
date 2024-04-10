@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8150dd25-6d35-42b5-bf08-277a6fcef3ab" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/S7_EX.py" beforeDir="false" afterPath="$PROJECT_DIR$/S7_EX.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S8.py" beforeDir="false" afterPath="$PROJECT_DIR$/S8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,7 @@
     "Python.S6_EX.executor": "Run",
     "Python.S6_exercitii_aditionale.executor": "Run",
     "Python.S7_EX.executor": "Run",
+    "Python.S8.executor": "Run",
     "Python.main.executor": "Run",
     "Python.seminar_4_ex.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
