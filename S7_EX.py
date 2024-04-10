@@ -152,6 +152,7 @@ result = pd.merge(df,
                   df1[['use_id', 'platform', 'device']],
                   on='use_id',
                   how='right')
+print(result.head().to_string())
 print(result)
 print('Structura fisier user_usage.csv ', df.shape)
 print('Structura fisier user_device.csv ', df1.shape)
@@ -193,7 +194,8 @@ result = pd.merge(df,
                   on='use_id',
                   how='left')
 
-df3.rename(columns={"Retail Branding": "manufacturer"}, inplace=True)
+df3.rename(columns={"Retail Branding": "manufacturer"}, inplace=True) # Nu mai este nevoie de auto-asignare cand punem inplace=True
+# acelasi lucru cu df3 = df3.rename
 result = pd.merge(result,
                   df3[['manufacturer', 'Model']],
                   left_on='device',
@@ -230,7 +232,7 @@ plt.show()
 # Exemplul 18: Grafic cu gruparea și sortarea datelor
 # Filtrăm datele pentru sexul masculin și grupăm după 'JOB' sumând 'VENIT_PER_YEAR'
 plot_data = df[df['SEX'] == 'm']
-plot_data = plot_data.groupby('JOB')['VENIT_PER_YEAR'].sum()
+plot_data = plot_data.groupby('JOB')['INCOME_PER_YEAR'].sum()
 # Sortăm și reprezentăm grafic rezultatele
 plot_data.sort_values().plot(kind='bar')
 plt.show()
