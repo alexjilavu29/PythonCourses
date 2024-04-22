@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8150dd25-6d35-42b5-bf08-277a6fcef3ab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Recap_Test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/S8.py" beforeDir="false" afterPath="$PROJECT_DIR$/S8.py" afterDir="false" />
     </list>
@@ -43,7 +44,8 @@
     "Python.seminar_4_ex.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RunManager">

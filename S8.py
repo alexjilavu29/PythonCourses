@@ -128,6 +128,7 @@ df.plot(kind='box', figsize=[12,10])
 plt.xticks(rotation='vertical')
 plt.show()
 
+
 '''Bar charts'''
 
 df.plot.bar(x='JOB', figsize=[15,12])
@@ -141,7 +142,6 @@ plt.show()
 df.set_index('JOB', inplace=True)
 df[['DEPOSIT_AMOUNT','VENIT_PER_YEAR_RON']].plot.pie(subplots=True, figsize=(30, 25))
 plt.show()
-
 
 
 #pandas.pivot_table(data, values=None, index=None, columns=None, aggfunc='mean', fill_value=None, margins=False, dropna=True, margins_name='All', observed=False, sort=True)
