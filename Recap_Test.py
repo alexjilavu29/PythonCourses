@@ -29,7 +29,7 @@ print(cars1.iloc[:,:-3])
 
 print(pd.concat([cars1,cars2],axis=0))
 
-# axis = 0 reprezinta faptul ca se concateneaza coloanele
+# axis = 0 reprezinta faptul ca se concateneaza raportat la directia de linii
 
 
 '''Sa se citeasca setul de date fotbal.csv intr-un dataframe'''
@@ -58,40 +58,48 @@ print(fb.loc[fb["Team"].isin(["Russia","Germany","Greece"]),["Team","Shooting Ac
 
 '''Sa se afiseze randurile //(de la al treilea la al saptelea)  de la 3 la 7 si coloanele de la 3 la 6'''
 
-
+print(fb.iloc[2:7,2:6])
 
 '''Sa se afiseze toate randurile pana la randul numarul 4 si toate coloanele'''
 
-
+print(fb.loc[:"4",:])
 
 '''Sa se stearga coloana -Players used-'''
 
+fb2 = fb.drop("Players Used", axis=1)
+print(fb2)
 
+# fb.drop() este folosit pentru a scoate o coloana din dataframe
 
 '''Sa se stearga primele doua randuri '''
 
-
+print(fb2.drop([0,1]))
 
 '''Sa se citeasca setul de date drinks intr-un dataframe '''
 
-
+drinks = pd.read_csv("drinks.csv")
+print(drinks.to_string())
 
 '''Pe ce continent se consuma, in medie, mai multa bere? '''
 
-
+print(drinks.loc[drinks["beer_servings"]==drinks["beer_servings"].max(),["continent","beer_servings"]])
 
 '''afisati statisticile pentru consumul de vin '''
 
-
+print(drinks["wine_servings"].describe())
 
 '''Afisati media, mediana, minimul si maximul pentru consumul de bere pt fiecare continent'''
 
+print(drinks["beer_servings"].agg(["mean","min","max"]))
 
+
+import seaborn as sns
 
 '''Sa se afiseze o histograma a continentelor care consuma cea mai multa bere  '''
 
-
-
+cont_beer = drinks.groupby('continent')['beer_servings'].sum().sort_values(ascending=False)
+sns.pairplot(drinks,vars=['continent','beer_servings'],hue='PRESCORING',diag_kind='hist')
+plt.show()
 '''Sa se citeasca setul de date tips intr-un dataframe '''
 
 
