@@ -16,6 +16,7 @@ print(len(cars1))
 print(len(cars2))
 print(cars1)
 print(cars2)
+
 '''Pentru cars1 sa se afiseze primele 7 coloane '''
 
 print(cars1.iloc[:,:7])
@@ -27,7 +28,6 @@ print(cars1.iloc[:,:-3])
 '''Sa se construiasca un singur df pornind de la cele doua seturi de date'''
 
 cars_total = pd.concat([cars1, cars2], axis=0)
-
 print(cars_total.head())
 
 '''Sa se citeasca setul de date fotbal.csv intr-un dataframe'''
