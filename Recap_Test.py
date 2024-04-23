@@ -196,3 +196,24 @@ print(sum)
 # set1 - set2 -> ce e in set1 dar nu in set2
 # set1 > set2 -> daca toate elementele din set2 sunt si in set1
 # set1 < set2 -> daca toate elementele din set1 sunt si in set2
+
+# Dictionare {... : ...}
+# .keys() -> toate cheile din acel dictionar
+# .values() -> toate valorile din acel dictionar
+# .items() -> toate perechile cheie:valoare din acel dictionar
+# .update({... : ...}) -> se modifica valoarea de la cheia indicata in cea noua
+# .pop("...") -> se elimina cheia indicata
+# .popitem() -> se elimina ultimul item din dictionar
+# for i in dictionar -> parcurge toate itemele dictionarului
+
+# PANDAS - import pandas as pd
+# from pandas import DataFrame -> ca sa nu mai scriem DataFrame. inainte de orice metoda
+# from pandas import Series -> la fel pentru serii
+
+# Series - similar cu dictionarele
+# Series([...], index=[...]) -> Se creeaza o serie cu valori si indecsi indicati
+# .values -> toate valorile
+# .index -> toti indecsii
+# pd.isna(serie) -> daca exista valori nule
+# Series({... : ...}) -> transformare din dictionar in serie
+# pd.notnull(serie) -> daca seria nu e nula
