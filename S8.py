@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import matplotlib.mlab as mlab
 import matplotlib
 import seaborn as sns
-
 from scipy.stats import kurtosis, skew
 
 plt.style.use('ggplot')

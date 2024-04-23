@@ -162,3 +162,23 @@ while i<5:
     sum+=(int)(x)
     i+=1
 print(sum)
+
+
+# Liste
+# .append() -> adaugare element la finalul listei
+# .pop() -> eliminare ultimul element din lista
+# .pop(pozitie) -> eliminarea unui element specific in functie de pozitie
+# len() -> lungimea listei
+# lista1 + lista2 -> concatenare
+# del(lista) -> sterge lista
+# del(lista[i]) -> sterge elementul de pe pozitia i
+# .clear() -> elimina toate elementele din lista
+
+
+# Siruri de caractere
+# .find(" ") -> cauta o secventa intr-un sir
+# .replace("old", "new") -> suprascrie un sir vechi cu unul nou
+# .split("separator") -> imparte sirul intr-o lista dupa acel separator
+# .lower() -> face toate caracterele minuscule
+# .strip() -> sterge toate spatiile
+# rstrip() -> sterge toate spatiile de la final
