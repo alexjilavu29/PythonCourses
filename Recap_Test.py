@@ -164,15 +164,6 @@ while i<5:
 print(sum)
 
 
-# Liste [...]
-# .append() -> adaugare element la finalul listei
-# .pop() -> eliminare ultimul element din lista
-# .pop(pozitie) -> eliminarea unui element specific in functie de pozitie
-# len() -> lungimea listei
-# lista1 + lista2 -> concatenare
-# del(lista) -> sterge lista
-# del(lista[i]) -> sterge elementul de pe pozitia i
-# .clear() -> elimina toate elementele din lista
 
 
 # Siruri de caractere "..." '...'
@@ -182,6 +173,28 @@ print(sum)
 # .lower() -> face toate caracterele minuscule
 # .strip() -> sterge toate spatiile
 # rstrip() -> sterge toate spatiile de la final
+
+
+# Functii
+# def functie( ... , ... ):
+# return ...
+
+# Functii LAMBDA -- functii care pot fi definite pentru a putea fi atribuite unor variabile sau folosite in alte functii
+# lambda a : a + 10 -> daca se atribuie unei variabila, acea variabila devine o functie care ia un parametru si il incrementeaza cu 10
+# Functiile lambda pot avea mai multe argumente in antet, insa urmeaza aceeasi sintaxa lambda a,b: a+b
+
+
+# Liste [...]
+# .append() -> adaugare element la finalul listei
+# .pop() -> eliminare ultimul element din lista
+# .pop(pozitie) -> eliminarea unui element specific in functie de pozitie
+# len() -> lungimea listei
+# lista1 + lista2 -> concatenare
+# del(lista) -> sterge lista
+# del(lista[i]) -> sterge elementul de pe pozitia i
+# .clear() -> elimina toate elementele din lista
+# range(n) -> de la 0 pana la n exclusiv
+# range(a,k) -> de la a la k exclusiv k
 
 # Tupluri (...) - immutable
 # t1+t2 -> concatenare
@@ -205,6 +218,9 @@ print(sum)
 # .pop("...") -> se elimina cheia indicata
 # .popitem() -> se elimina ultimul item din dictionar
 # for i in dictionar -> parcurge toate itemele dictionarului
+# list(df1.keys()) -> se preiau toate cheile si se adauga intr-o lista
+# df1[cheie] -> returneaza valoarea de la acea cheie
+
 
 # PANDAS - import pandas as pd
 # from pandas import DataFrame -> ca sa nu mai scriem DataFrame. inainte de orice metoda
@@ -217,3 +233,19 @@ print(sum)
 # pd.isna(serie) -> daca exista valori nule
 # Series({... : ...}) -> transformare din dictionar in serie
 # pd.notnull(serie) -> daca seria nu e nula
+
+# DataFrame
+# DataFrame( data = [ [...], [...], ..., [...] ] , index = [...] , columns = [...] , dtype = ... ) -> definire data frame cu nume pentru linii si coloane + data types
+# .iloc(...,...) -> cautare dupa pozitia in data frame
+# .head() -> primele 5 valori
+# .head(n) -> primele n valori
+# .tail(n) -> ultimele n valori
+
+
+# Lucrul cu fisiere
+# open(" ... .txt ", "r") -> deschidere pentru citire
+# content = fisier.read() -> poate fi atribuit si parcurs continutul
+# fisier.readline() -> se citeste cate o linie
+# fisier.readlines() -> se citesc mai multe linii deodata
+# fisier.close()
+
