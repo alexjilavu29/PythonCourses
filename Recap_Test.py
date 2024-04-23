@@ -96,25 +96,40 @@ print(drinks["beer_servings"].agg(["mean","min","max"]))
 import seaborn as sns
 
 '''Sa se afiseze o histograma a continentelor care consuma cea mai multa bere  '''
+# Sa se afiseze o histograma a continentelor care consuma cea mai multa bere
+# Se grupeaza dupa continent si se calculeaza suma de bere servita
+# Se sorteaza valorile in ordine descrescatoare
+# Se afiseaza un grafic de tip barplot
+# Se afiseaza graficul
+db = drinks.groupby('continent')['beer_servings'].sum().sort_values(ascending=False)
+sns.barplot(x=db.index, y=db.values)
+plt.show()
 
 cont_beer = drinks.groupby('continent')['beer_servings'].sum().sort_values(ascending=False)
-sns.pairplot(drinks,vars=['continent','beer_servings'],hue='PRESCORING',diag_kind='hist')
-plt.show()
+#sns.pairplot(drinks,vars=['continent','beer_servings'],hue='PRESCORING',diag_kind='hist')
+#plt.show()
+
 '''Sa se citeasca setul de date tips intr-un dataframe '''
 
-
+tips = pd.read_csv("tips.csv")
+print(tips)
 
 '''Au fost mai multi clienti de gen masculin sau feminin?'''
 
-
+print(tips["gender"].value_counts())
+#print(tips.groupby(''))
 
 '''pentru fiecare gen, sa se calculeze valoarea minima, valoarea maxima si media tip-ului acordat'''
 
-
+print(tips.groupby("gender")["tip"].agg(["min","max","mean"]))
 
 '''pentru fiecare tip de masa (Dinner/Lunch) sa se calculeze procentul de clienti - barbati/femei'''
 
-
+print(tips.groupby("time")["gender"].value_counts())
+counts = tips.groupby(["time","gender"]).size()
+totalpertime = counts.groupby("time").sum()
+print(totalpertime)
+print(counts/totalpertime)
 
 '''Sa se afiseze grafic top 5 cele mai mari note de plata '''
 
