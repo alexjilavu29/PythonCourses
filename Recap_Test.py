@@ -124,6 +124,14 @@ print(tips["gender"].value_counts())
 print(tips.groupby("gender")["tip"].agg(["min","max","mean"]))
 
 '''pentru fiecare tip de masa (Dinner/Lunch) sa se calculeze procentul de clienti - barbati/femei'''
+print("\n\n--------------------------------------------\n\n")
+counts = tips.groupby(["time","gender"]).size()
+print(counts)
+print(counts.groupby("time").sum())
+print((counts/(counts.groupby("time").sum()))*100)
+print("\n\n--------------------------------------------\n\n")
+
+
 
 print(tips.groupby("time")["gender"].value_counts())
 counts = tips.groupby(["time","gender"]).size()
@@ -133,7 +141,24 @@ print(counts/totalpertime)
 
 '''Sa se afiseze grafic top 5 cele mai mari note de plata '''
 
+print(tips.sort_values(by="total_bill", ascending=False).head())
+top_bills = tips.sort_values(by="total_bill", ascending=False).head()
+
+# Folosind matplotlib.pyplot
+plt.bar(top_bills.index, top_bills["total_bill"])
+plt.show()
+
+# Folosind seaborn
+sns.barplot(x=top_bills.index, y=top_bills["total_bill"])
+plt.show()
 
 
 '''folosind while sa se calculeze media a 5 numere primite de la tastatura '''
 
+i=0
+sum=0
+while i<5:
+    x=input("Inserati un numar:")
+    sum+=(int)(x)
+    i+=1
+print(sum)

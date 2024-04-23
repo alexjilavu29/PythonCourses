@@ -145,7 +145,7 @@ plt.show()
 
 
 #pandas.pivot_table(data, values=None, index=None, columns=None, aggfunc='mean', fill_value=None, margins=False, dropna=True, margins_name='All', observed=False, sort=True)
-df3=pd.pivot_table(dfm, values=['REQUESTED_AMOUNT'], index=['JOB', 'MARITAL_STATUS'], aggfunc={'REQUESTED_AMOUNT': np.mean}).reset_index()
+df3=pd.pivot_table(dfm, values=['REQUESTED_AMOUNT'], index=['JOB', 'MARITAL_STATUS'], aggfunc={'REQUESTED_AMOUNT': np.mean()}).reset_index()
 
 #DataFrame.pivot(index=None, columns=None, values=None)
 df3 = df3.pivot(index='JOB', columns='MARITAL_STATUS', values='REQUESTED_AMOUNT').fillna(0)
