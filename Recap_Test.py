@@ -241,6 +241,10 @@ print(sum)
 # .head() -> primele 5 valori
 # .head(n) -> primele n valori
 # .tail(n) -> ultimele n valori
+# pd.merge(df1, df2, on = "coloana_comuna") -> realizare inner join
+# pd.merge(df1, df2, on = "coloana_comuna", how="left") -> realizare left join
+# pd.merge(df1, df2, on = "coloana_comuna", how="right") -> realizare right join
+# pd.merge(df1, df2, on = "coloana_comuna", how="outer") -> realizare outer join
 
 
 # Lucrul cu fisiere
@@ -277,11 +281,32 @@ print(sum)
 # .max()/.min() -> maximul/minimul din valorile selectate
 # .agg([...]) -> se pot insera mai multe statistici ca si nume pentru a fi aplicate simultan
 # .idxmax() -> care este indexul unde se gaseste valoarea maxima
+# from spicy.stats import kurtosis, skew
+# skew(coloana) -> calcul skewness
+# kurtosis(coloana) -> calcul kurtosis
+# df.corr(method="spearman") -> matrice de corelatie (mai exista si method="kendall")
+
 
 
 # GROUP BY
 # df1.groupby(by = "...")[...] -> [primul element inserat este cel dupa care se face gruparea, al doilea este cel selectat
 # .groupby("...").apply(functie, include_groups=False) -> pentru a aplica o functie anume
+
+
+# GRAFICE - import matplotlib.pyplot as plt
+# plt.hist(coloana, bins=10/20/30/..., color="...", edgecolor="...")
+# plt.title("...") -> titlul graficului
+# plt.xlabel("...") -> numele axei OX
+# plt.ylabel("...") -> numele axei OY
+# plt.show() -> pentru a randa graficul
+# plt.pie(coloana, labels=coloana.index, autopct='%1.1f%%", startangle = 90) -> pie plot cu nume, procente si rotit la 90 de grade
+# Se mai poate scrie si df["..."].plot(kind="bar") sau kind="hist" sau kind="box"
+# Pentru kind="scatter" avem nevoie si de coloana pentru x="..." si pentru y="..."
+# pd.pivot_table(dataframe, values=[...coloane...], index=[...], columns=[...],aggfunc={dictionar unde cheia este variabile si valoarea este functia aplicata, adica max, sum etc)
+
+
+# import seaborn as sns
+# sns.pairplot(conditie, vars = [...coloane...], hue="...", diag_kind="hist")
 
 
 
