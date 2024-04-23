@@ -164,7 +164,7 @@ while i<5:
 print(sum)
 
 
-# Liste
+# Liste [...]
 # .append() -> adaugare element la finalul listei
 # .pop() -> eliminare ultimul element din lista
 # .pop(pozitie) -> eliminarea unui element specific in functie de pozitie
@@ -175,10 +175,24 @@ print(sum)
 # .clear() -> elimina toate elementele din lista
 
 
-# Siruri de caractere
+# Siruri de caractere "..." '...'
 # .find(" ") -> cauta o secventa intr-un sir
 # .replace("old", "new") -> suprascrie un sir vechi cu unul nou
 # .split("separator") -> imparte sirul intr-o lista dupa acel separator
 # .lower() -> face toate caracterele minuscule
 # .strip() -> sterge toate spatiile
 # rstrip() -> sterge toate spatiile de la final
+
+# Tupluri (...) - immutable
+# t1+t2 -> concatenare
+# .index("...") -> indexul unui anumit element din tuplu
+# .count("...") -> de cate ori apare un element anume
+
+# Seturi {...} - no duplicates
+# set("...") -> se elimina toate duplicatele si se creeaza un set cu caracterele ramase
+# "..." in set1 -> True daca se gasesc elementul in set
+# set1 | set2 -> reuniune de seturi
+# set1 & set2 -> intersectie de seturi
+# set1 - set2 -> ce e in set1 dar nu in set2
+# set1 > set2 -> daca toate elementele din set2 sunt si in set1
+# set1 < set2 -> daca toate elementele din set1 sunt si in set2
