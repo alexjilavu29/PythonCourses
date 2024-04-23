@@ -173,6 +173,7 @@ print(sum)
 # .lower() -> face toate caracterele minuscule
 # .strip() -> sterge toate spatiile
 # rstrip() -> sterge toate spatiile de la final
+# print(f"...{...}...") -> daca se adauga f la inceput se pot insera variabile in string intre acolade
 
 
 # Functii
@@ -248,4 +249,53 @@ print(sum)
 # fisier.readline() -> se citeste cate o linie
 # fisier.readlines() -> se citesc mai multe linii deodata
 # fisier.close()
+
+# Pentru fisiere csv putem scrie:
+# open("... .csv", mode = "r")
+# date = csv.reader(fisier)
+
+
+# Manipulare DataFrame folosind PANDAS (PD)
+# import matplotlib.pyplot as plt -> pentru grafice
+# pd.read_csv("...") -> citire fisier csv
+# .head() -> primele 5 intrari
+# .info() -> informatii primare
+# .describe() -> statistici descriptive
+# .to_string() -> convertire la string (pentru afisare sau manipulare)
+# .isna() -> daca exista valori null
+# .isnull() -> la fel
+# .notnull() -> opusul
+# .value_counts -> numara toate intrarile pentru fiecare element diferit de pe o coloana anume
+# daca sunt valori unicat:
+# .nunique() -> cate sunt
+# .unique() -> care sunt
+# list(df1.columns) -> se realizeaza o lista cu toate elementele din data frame
+# .loc[conditie , ce sa afiseze] -> se foloseste pentru a afisa dupa denumiri anume si dupa anumite conditii prestabilite
+# df[i].isin[...] -> conditie daca un element i este intr-o lista anume
+# .sum() -> suma valorilor selectate
+# .mean() -> media valorilor
+# .max()/.min() -> maximul/minimul din valorile selectate
+# .agg([...]) -> se pot insera mai multe statistici ca si nume pentru a fi aplicate simultan
+# .idxmax() -> care este indexul unde se gaseste valoarea maxima
+
+
+# GROUP BY
+# df1.groupby(by = "...")[...] -> [primul element inserat este cel dupa care se face gruparea, al doilea este cel selectat
+# .groupby("...").apply(functie, include_groups=False) -> pentru a aplica o functie anume
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
