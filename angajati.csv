@@ -1,0 +1,264 @@
+﻿ID_angajat,ID_sectorAct,ID_funcție,Nume_prenume,Data_angajării,Vechime,Nume_Funcție,Nume_Sector
+1,1,1,Mărginean Emilia,43559,4,Vânzător bilete,Activitate de exploatare
+2,1,1,Filoșteanu Maria,36500,24,Vânzător bilete,Activitate de exploatare
+3,1,1,Matei Ioana,37317,22,Vânzător bilete,Activitate de exploatare
+4,1,2,Comănici Codrin,37317,22,Acar,Activitate de exploatare
+5,1,2,Leonte Maricel,43588,4,Acar,Activitate de exploatare
+6,1,2,Catrin Ileana,43254,5,Acar,Activitate de exploatare
+7,1,2,Mărăcine Ionuț,37327,22,Acar,Activitate de exploatare
+8,1,2,Alexandru Andrei,42270,8,Acar,Activitate de exploatare
+9,1,3,Militaru Andreea,41032,11,Conductor tren,Activitate de exploatare
+10,1,3,Coman Ioana,43842,4,Conductor tren,Activitate de exploatare
+11,1,3,Ivanovici Maria,44220,3,Conductor tren,Activitate de exploatare
+12,1,3,Carp Alexandru,44077,3,Conductor tren,Activitate de exploatare
+13,1,4,Dumitru Iustin,42407,8,Informator călători,Activitate de exploatare
+14,1,4,Corcioveanu Ion,36740,23,Informator călători,Activitate de exploatare
+15,1,4,Mateescu  Iulia,43528,5,Informator călători,Activitate de exploatare
+16,1,5,Catrin Maria,45267,0,Magazier comercial,Activitate de exploatare
+17,1,5,Mihalache Iasmina,37290,22,Magazier comercial,Activitate de exploatare
+18,1,5,Morozan Anamaria,38477,18,Magazier comercial,Activitate de exploatare
+19,1,6,Chiriac Marius,43650,4,Manevrant vagoane,Activitate de exploatare
+20,1,6,Radu Ion,43865,4,Manevrant vagoane,Activitate de exploatare
+21,1,6,Coman Ioana,43263,5,Manevrant vagoane,Activitate de exploatare
+22,1,6,Istrate Mara,37471,21,Manevrant vagoane,Activitate de exploatare
+23,1,7,Marin Dana,43146,6,Șef tură la comanda personalului de tren,Activitate de exploatare
+24,1,7,Firu Marian,38089,19,Șef tură la comanda personalului de tren,Activitate de exploatare
+25,1,7,Caraiman Andrei,39905,14,Șef tură la comanda personalului de tren,Activitate de exploatare
+26,1,8,Mateescu Ioana,41674,10,Șef manevră,Activitate de exploatare
+27,1,8,Popovici Iulian,43205,5,Șef manevră,Activitate de exploatare
+28,1,8,Ilaș Petru,42038,9,Șef manevră,Activitate de exploatare
+29,1,8,Petru Rareș,43538,5,Șef manevră,Activitate de exploatare
+30,1,9,Cantemir Iustin,37775,20,Casier cf,Activitate de exploatare
+31,1,9,Dumitrescu Maria,40980,12,Casier cf,Activitate de exploatare
+32,1,9,Golescu Carla,43564,4,Casier cf,Activitate de exploatare
+33,1,9,Dacău Cornel,43892,4,Casier cf,Activitate de exploatare
+34,1,9,Dârgu Camelia,43232,5,Casier cf,Activitate de exploatare
+35,1,9,Diancof Marian,43134,6,Casier cf,Activitate de exploatare
+36,1,10,Doagă Vasile,42838,6,Casier cf verificator,Activitate de exploatare
+37,1,10,Drăgănel Daniel,44016,3,Casier cf verificator,Activitate de exploatare
+38,1,10,Duceag Carmen,44349,2,Casier cf verificator,Activitate de exploatare
+39,1,11,Lacău Ileana,40332,13,Șef tren,Activitate de exploatare
+40,1,11,Lăcaru Cristina,37723,20,Șef tren,Activitate de exploatare
+41,1,11,Leaș Maria,40983,12,Șef tren,Activitate de exploatare
+42,1,11,Lican Mădălina,38067,20,Șef tren,Activitate de exploatare
+43,1,12,Macafi Radu,38021,20,Mecanic ajutor locomotivă-automotor,Activitate de exploatare
+44,1,12,Macari Ioana,42039,9,Mecanic ajutor locomotivă-automotor,Activitate de exploatare
+45,1,12,Mândreanu Vasile,43536,5,Mecanic ajutor locomotivă-automotor,Activitate de exploatare
+46,1,12,Coman Iustin,44302,2,Mecanic ajutor locomotivă-automotor,Activitate de exploatare
+47,1,12,Mâncu Marius,41700,10,Mecanic ajutor locomotivă-automotor,Activitate de exploatare
+48,1,13,Mechita Sebastian,37329,22,Mecanic locomotivă-automotor,Activitate de exploatare
+49,1,13,Mereș Carla,37419,21,Mecanic locomotivă-automotor,Activitate de exploatare
+50,1,13,Mandai Cristina,36893,23,Mecanic locomotivă-automotor,Activitate de exploatare
+51,1,14,Oprea Daria,41982,9,Operator manevră în stații,Activitate de exploatare
+52,1,14,Oaida Bogdan,42006,9,Operator manevră în stații,Activitate de exploatare
+53,1,14,Ochea Bianca,42372,8,Operator manevră în stații,Activitate de exploatare
+54,1,15,Odăianu Petru,43648,4,Operator exploatare,Activitate de exploatare
+55,1,15,Oegar Marian,42769,7,Operator exploatare,Activitate de exploatare
+56,1,15,Oancea Claudia,44785,1,Operator exploatare,Activitate de exploatare
+57,1,15,Oarză Viorel,44785,1,Operator exploatare,Activitate de exploatare
+58,1,16,Odiațiu Marius,40943,12,Operator-programator în stații,Activitate de exploatare
+59,1,16,Ochiș Rebeca,43922,3,Operator-programator în stații,Activitate de exploatare
+60,1,16,Odobașu Anton,40291,13,Operator-programator în stații,Activitate de exploatare
+61,1,16,Obîrșie Mara,40614,13,Operator-programator în stații,Activitate de exploatare
+62,1,17,Racoșiu Iustin,43018,6,Revizor tehnic vagoane,Activitate de exploatare
+63,1,17,Râmnicianu Vlad,43254,5,Revizor tehnic vagoane,Activitate de exploatare
+64,1,17,Recășan Grigore,43598,4,Revizor tehnic vagoane,Activitate de exploatare
+65,1,18,Răcean Ema,44318,2,Șef tură,Activitate de exploatare
+66,1,18,Rânciog Carla,44958,1,Șef tură,Activitate de exploatare
+67,1,18,Rânjea Anastasia,45024,0,Șef tură,Activitate de exploatare
+68,1,19,Râpă Rareș,42402,8,Revizor locomotive-automotoare,Activitate de exploatare
+69,1,19,Rișcou Codrin,43193,5,Revizor locomotive-automotoare,Activitate de exploatare
+70,1,19,Racotă Anton,42443,8,Revizor locomotive-automotoare,Activitate de exploatare
+71,1,19,Râpan Matei,43597,4,Revizor locomotive-automotoare,Activitate de exploatare
+72,1,19,Rișcou Mara,44570,2,Revizor locomotive-automotoare,Activitate de exploatare
+73,1,20,Rediș Gheorghe,44199,3,Operator,Activitate de exploatare
+74,1,20,Răcoreanu Camelia,45018,0,Operator,Activitate de exploatare
+75,1,20,Răcșan Maria,45058,0,Operator,Activitate de exploatare
+76,1,21,Riți Ioana,40982,12,Operator legitimații călătorie,Activitate de exploatare
+77,1,21,Rizea Maria,43549,4,Operator legitimații călătorie,Activitate de exploatare
+78,1,21,Regea Andreea,45058,0,Operator legitimații călătorie,Activitate de exploatare
+79,1,21,Rădac Camelia,44015,3,Operator legitimații călătorie,Activitate de exploatare
+80,1,22,Săbău Liliana,45262,0,Instructor,Activitate de exploatare
+81,1,22,Săcăluș Maia,43933,3,Instructor,Activitate de exploatare
+82,1,22,Sbîncă Ioana,43578,4,Instructor,Activitate de exploatare
+83,1,22,Scânteiu Camelia,43536,5,Instructor,Activitate de exploatare
+84,1,23,Săcălu Vasile,45130,0,Mecanic instructor,Activitate de exploatare
+85,1,23,Scânteianu Flavius,44663,1,Mecanic instructor,Activitate de exploatare
+86,1,24,Sâicu Florin,44819,1,Conductor vagon de dormit și cușetă,Activitate de exploatare
+87,1,24,Săcăreș Claudiu,43985,3,Conductor vagon de dormit și cușetă,Activitate de exploatare
+88,1,24,Sachin Mihai,45028,0,Conductor vagon de dormit și cușetă,Activitate de exploatare
+89,1,25,Săcară Ahmad,41001,11,Șef tură la comanda personalului de servire a vagoanelor,Activitate de exploatare
+90,1,25,Sâncrian Radu,43468,5,Șef tură la comanda personalului de servire a vagoanelor,Activitate de exploatare
+91,1,25,Saba Ernest,42771,7,Șef tură la comanda personalului de servire a vagoanelor,Activitate de exploatare
+92,2,26,Florea Matei,41011,11,Lucrător comercial,Activitate de circulație a mărfurilor și alimentație publică
+93,2,26,Făget Marius,44318,2,Lucrător comercial,Activitate de circulație a mărfurilor și alimentație publică
+94,2,26,Farcaș Cornel,44564,2,Lucrător comercial,Activitate de circulație a mărfurilor și alimentație publică
+95,2,27,Filimon Maia,44298,2,Lucrător gestionar cazare,Activitate de circulație a mărfurilor și alimentație publică
+96,2,27,Filip Radu,44997,1,Lucrător gestionar cazare,Activitate de circulație a mărfurilor și alimentație publică
+97,2,27,Filea Petru,45119,0,Lucrător gestionar cazare,Activitate de circulație a mărfurilor și alimentație publică
+98,2,28,Fâscă Mihai,45000,1,Lucrător gestiune alimentație publică,Activitate de circulație a mărfurilor și alimentație publică
+99,2,28,Fălticeanu Ion,44663,1,Lucrător gestiune alimentație publică,Activitate de circulație a mărfurilor și alimentație publică
+100,2,28,Felix Ion,44265,3,Lucrător gestiune alimentație publică,Activitate de circulație a mărfurilor și alimentație publică
+101,3,29,Ucea Maria,45271,0,Operator calculator electronic,Activitate informatică
+102,3,29,Udrea Maia,45241,0,Operator calculator electronic,Activitate informatică
+103,3,29,Uică Carla,45028,0,Operator calculator electronic,Activitate informatică
+104,3,29,Macovei Iustina,43443,5,Operator calculator electronic,Activitate informatică
+105,4,30,Comănici Beatrice,43536,5,Șofer,Activitate de transporturi auto
+106,4,30,Matei Alexandru,43954,3,Șofer,Activitate de transporturi auto
+107,5,31,Udișteanu Adrian,44451,2,Funcționar,Funcții de execuție
+108,5,31,Cocoș Marian,39848,15,Funcționar,Funcții de execuție
+109,5,31,Udoi Mara,42493,7,Funcționar,Funcții de execuție
+110,5,32,Uilachi Cosmin,43557,4,Șef cabinet,Funcții de execuție
+111,5,32,Mateescu Sabrina,43865,4,Șef cabinet,Funcții de execuție
+112,5,32,Vacea Ionuț,37743,20,Șef cabinet,Funcții de execuție
+113,5,33,Vaida Cornel,41977,9,Gestionar materiale,Funcții de execuție
+114,5,33,Vega Matei,43902,4,Gestionar materiale,Funcții de execuție
+115,5,33,Vâlcov Laura,44298,2,Gestionar materiale,Funcții de execuție
+116,5,34,Vele Ion,43533,5,"Tehnician, statistician, inspector resurse umane",Funcții de execuție
+117,5,34,Valerian Valeriu,44298,2,"Tehnician, statistician, inspector resurse umane",Funcții de execuție
+118,5,34,Valenca Codrin,45181,0,"Tehnician, statistician, inspector resurse umane",Funcții de execuție
+119,5,35,Vânătoru Silviu,44318,2,Contabil,Funcții de execuție
+120,5,35,Veja Luminița,45048,0,Contabil,Funcții de execuție
+121,5,35,Vela Laurențiu,43567,4,Contabil,Funcții de execuție
+122,5,36,Văleanu Maia,40971,12,Maistru,Funcții de execuție
+123,5,36,Venin Carmen,37327,22,Maistru,Funcții de execuție
+124,5,36,Vâță Matei,40977,12,Maistru,Funcții de execuție
+125,5,37,Vera Mircea,43965,3,Dispecer circulație,Funcții de execuție
+126,5,37,Verde Alex,38208,19,Dispecer circulație,Funcții de execuție
+127,5,37,Varvara Barbu,41252,11,Dispecer circulație,Funcții de execuție
+128,5,38,Vereș Claudiu,43171,6,Inspector de specialitate,Funcții de execuție
+129,5,38,Vasilache George,44232,3,Inspector de specialitate,Funcții de execuție
+130,5,38,Vasilcău Laur,44298,2,Inspector de specialitate,Funcții de execuție
+131,5,39,Vasiliu Ileana,44615,2,"Subinginer, inginer colegiu, economist colegiu",Funcții de execuție
+132,5,39,Vatamanu Florin,44298,2,"Subinginer, inginer colegiu, economist colegiu",Funcții de execuție
+133,5,40,Vatră Tudor,45026,0,Specialist în relații publice,Funcții de execuție
+134,5,40,Vesu Daniel,44289,2,Specialist în relații publice,Funcții de execuție
+135,5,40,Vatamanu Ilie,44808,1,Specialist în relații publice,Funcții de execuție
+136,5,41,Zafiu Rareș,44319,2,Auditor intern,Funcții de execuție
+137,5,41,Zălog Adrian,37599,21,Auditor intern,Funcții de execuție
+138,5,41,Zăicescu Matias,44719,1,Auditor intern,Funcții de execuție
+139,5,42,Zaharia Iulian,44661,1,Traducător,Funcții de execuție
+140,5,42,Zaharescu Florin,44328,2,Traducător,Funcții de execuție
+141,5,42,Zbora Dumitru,44684,1,Traducător,Funcții de execuție
+142,5,42,Zdrîncu Cosmin,44663,1,Traducător,Funcții de execuție
+143,5,43,Ebu Cornel,43954,3,"Economist, psiholog",Funcții de execuție
+144,5,43,Edeleanu Claudiu,45028,0,"Economist, psiholog",Funcții de execuție
+145,5,44,Ecaterina Teodor,44659,1,Inginer,Funcții de execuție
+146,5,44,Eftimie Florin,44256,3,Inginer,Funcții de execuție
+147,5,44,Eftimie Marin,44654,1,Inginer,Funcții de execuție
+148,5,45,Haiduc Cornelia,44328,2,Specialist resurse umane,Funcții de execuție
+149,5,45,Haidamac Rozalinda,43773,4,Specialist resurse umane,Funcții de execuție
+150,5,45,Hălmăgeanu Mioara,43750,4,Specialist resurse umane,Funcții de execuție
+151,5,46,Hirean Petruța,44077,3,Expert achiziții publice,Funcții de execuție
+152,5,46,Hârtopeanu Laur,44451,2,Expert achiziții publice,Funcții de execuție
+153,5,46,Hera Carmen,44660,1,Expert achiziții publice,Funcții de execuție
+154,5,47,Hărău Ioana,45119,0,Specialist în domeniul calității,Funcții de execuție
+155,5,47,Halici Iulia,44318,2,Specialist în domeniul calității,Funcții de execuție
+156,5,47,Herea Roxana,44722,1,Specialist în domeniul calității,Funcții de execuție
+157,5,48,Hășmaș Iustina,43994,3,"Analist, programator, inginer sistem",Funcții de execuție
+158,5,48,Hamza Aurica,43584,4,"Analist, programator, inginer sistem",Funcții de execuție
+159,5,48,Hărțescu Iulia,44451,2,"Analist, programator, inginer sistem",Funcții de execuție
+160,5,49,Hășmășan Cornelia,39915,14,"Inspector învățământ, sociolog",Funcții de execuție
+161,5,49,Hamzescu Daniela,41793,9,"Inspector învățământ, sociolog",Funcții de execuție
+162,5,50,Ilaș Ionela,43536,5,Consilier juridic,Funcții de execuție
+163,5,51,Herghela Rodica,40368,13,Inspector gestiune,Funcții de execuție
+164,5,51,Hărăguță Ema,44572,2,Inspector gestiune,Funcții de execuție
+165,5,51,Hărnuț Amira,45086,0,Inspector gestiune,Funcții de execuție
+166,5,52,Halmagiu Miriam,44259,3,Administrator de sistem,Funcții de execuție
+167,5,52,Herea Tudor,44318,2,Administrator de sistem,Funcții de execuție
+168,5,53,Hărșan Emanuela,44663,1,Manager energetic,Funcții de execuție
+169,5,53,Halmagiu Teodora,44703,1,Manager energetic,Funcții de execuție
+170,5,53,Herepean Laura,44302,2,Manager energetic,Funcții de execuție
+171,5,54,Hărpian Cosmin,45181,0,Asistent director,Funcții de execuție
+172,5,54,Hărău Matei,44818,1,Asistent director,Funcții de execuție
+173,5,54,Herescu Clara,44236,3,Asistent director,Funcții de execuție
+174,5,55,Heriș Pavel,44670,1,Revizor regional SC,Funcții de execuție
+175,5,55,Hășmaș Iulian,44328,2,Revizor regional SC,Funcții de execuție
+176,5,56,Hătnean Maria,41144,11,Instructor regional,Funcții de execuție
+177,5,56,Venin Lucreția,41982,9,Instructor regional,Funcții de execuție
+178,5,57,Hățăgan Maricela,43597,4,"Revizor regional ticketing, instructor regional ticketing",Funcții de execuție
+179,5,57,Herinean Ioana,45269,0,"Revizor regional ticketing, instructor regional ticketing",Funcții de execuție
+180,5,57,Hătiș Mara,44250,3,"Revizor regional ticketing, instructor regional ticketing",Funcții de execuție
+181,5,58,Tache Mircea,44683,1,Expert relații sociale,Funcții de execuție
+182,5,58,Tacu Cornel,44287,2,Expert relații sociale,Funcții de execuție
+183,5,58,Târcă Emanuel,44807,1,Expert relații sociale,Funcții de execuție
+184,5,59,Tec Iustin,44298,2,"Instructor central, revizor central SC",Funcții de execuție
+185,5,59,Tamaș Costel,44629,2,"Instructor central, revizor central SC",Funcții de execuție
+186,5,60,Tamba Eleonora,44570,2,Analist sisteme salarizare,Funcții de execuție
+187,5,61,Tălmaciu Marta,44724,1,Expert economist în gestiunea economică,Funcții de execuție
+188,5,61,Teiș Maria,43497,5,Expert economist în gestiunea economică,Funcții de execuție
+189,5,62,Târziman Matei,41252,11,Consultant în informatică,Funcții de execuție
+190,5,62,Cristovici Maria,43508,5,Consultant în informatică,Funcții de execuție
+191,5,62,Tălmăcel Andreea,44663,1,Consultant în informatică,Funcții de execuție
+192,5,63,Telec Denisa,44318,2,Responsabil cu protecția datelor cu caracter personal,Funcții de execuție
+193,5,63,Teică Andra,44665,1,Responsabil cu protecția datelor cu caracter personal,Funcții de execuție
+194,5,64,Tălămbuț Sorina,43355,5,Șef proiect,Funcții de execuție
+195,5,64,Tălăban Corina,45178,0,Șef proiect,Funcții de execuție
+196,6,65,Tamba Patricia,43931,3,Șef agenție voiaj,Funcții de conducere
+197,6,65,Tăiatu Pavel,43588,4,Șef agenție voiaj,Funcții de conducere
+198,6,65,Talpeș Eusebiu,45181,0,Șef agenție voiaj,Funcții de conducere
+199,6,66,Tăițeanu Matei,44819,1,Șef post revizie vagoane,Funcții de conducere
+200,6,66,Petru Pavel,44418,2,Șef post revizie vagoane,Funcții de conducere
+201,6,67,Giurgea Carla,44653,1,Șef atelier,Funcții de conducere
+202,6,67,Teică Mădălina,44724,1,Șef atelier,Funcții de conducere
+203,6,68,Tălău Lucreția,44539,2,Șef secție administrativă,Funcții de conducere
+204,6,68,Târpescu Matei,44816,1,Șef secție administrativă,Funcții de conducere
+205,6,69,Pachia Ioana,44385,2,Șef birou,Funcții de conducere
+206,6,69,Padina Maria,44813,1,Șef birou,Funcții de conducere
+207,6,70,Păcuraru Marta,38515,18,Șef secție exploatare adjunct,Funcții de conducere
+208,6,70,Păducel Ileana,36050,25,Șef secție exploatare adjunct,Funcții de conducere
+209,6,70,Pag Codrin,36415,24,Șef secție exploatare adjunct,Funcții de conducere
+210,6,70,Păcurari Vasile,38881,17,Șef secție exploatare adjunct,Funcții de conducere
+211,6,71,Păducel Mihai,40977,12,Șef secție exploatare,Funcții de conducere
+212,6,71,Pânză Iuliana,43720,4,Șef secție exploatare,Funcții de conducere
+213,6,72,Paflea Camelia,44093,3,Șef depou adjunct,Funcții de conducere
+214,6,72,Pârâu Iulia,44336,2,Șef depou adjunct,Funcții de conducere
+215,6,72,Piciu Marius,44670,1,Șef depou adjunct,Funcții de conducere
+216,6,73,Paladi Vasile,44309,2,Șef depou,Funcții de conducere
+217,6,73,Păiuș Codrin,44068,3,Șef depou,Funcții de conducere
+218,6,73,Pălăcian Marius,45269,0,Șef depou,Funcții de conducere
+219,6,74,Pârșă Camelia,44239,3,Șef revizie vagoane adjunct,Funcții de conducere
+220,6,74,Pele Adrian,44624,2,Șef revizie vagoane adjunct,Funcții de conducere
+221,6,75,Pălămidă Paula,45058,0,Șef revizie vagoane,Funcții de conducere
+222,6,75,Piftor Lucreția,44455,2,Șef revizie vagoane,Funcții de conducere
+223,6,76,Pietrariu Carmen,44451,2,Șef stație adjunct,Funcții de conducere
+224,6,76,Pelgher Mara,41712,10,Șef stație adjunct,Funcții de conducere
+225,6,76,Păiuș Codrin,39577,15,Șef stație adjunct,Funcții de conducere
+226,6,77,Babeș Alex,43720,4,Șef stație rezervă,Funcții de conducere
+227,6,77,Babic Ozana,44782,1,Șef stație rezervă,Funcții de conducere
+228,6,77,Bec Ina,45116,0,Șef stație rezervă,Funcții de conducere
+229,6,78,Bâcu Oana,44720,1,Șef stație,Funcții de conducere
+230,6,78,Biber Paula,44806,1,Șef stație,Funcții de conducere
+231,6,79,Băbuțiu Lorena,41640,10,Șef serviciu,Funcții de conducere
+232,6,79,Beclea Corina,45047,0,Șef serviciu,Funcții de conducere
+233,6,80,Bârcă Marian,43700,4,Șef divizie,Funcții de conducere
+234,6,81,Băciuț Andrei,44987,1,Contabil șef,Funcții de conducere
+235,6,81,Bechet Daniel,44629,2,Contabil șef,Funcții de conducere
+236,6,82,Dragomir Cătălin,44298,2,Șef oficiu,Funcții de conducere
+237,6,82,Dabija Florin,44596,2,Șef oficiu,Funcții de conducere
+238,6,83,Dâncu Corina,44318,2,Șef centru,Funcții de conducere
+239,6,83,Deac Ilinca,45029,0,Șef centru,Funcții de conducere
+240,6,83,Dâmbu Mădălin,45192,0,Șef centru,Funcții de conducere
+241,6,84,Dâncu Codrin,43727,4,Șef centru adjunct,Funcții de conducere
+242,6,84,Abel Andrei,45186,0,Șef centru adjunct,Funcții de conducere
+243,6,84,Adoc Cosmin,44782,1,Șef centru adjunct,Funcții de conducere
+244,6,85,Acon Rareș,44969,1,Manager,Funcții de conducere
+245,6,85,Nadeș Florin,44751,1,Manager,Funcții de conducere
+246,6,85,Neacșu George,44969,1,Manager,Funcții de conducere
+247,6,86,Neagoae Flavius,43991,3,Consilier,Funcții de conducere
+248,6,86,Neamț Marin,43727,4,Consilier,Funcții de conducere
+249,6,86,Nichita Fabian,43363,5,Consilier,Funcții de conducere
+250,6,87,Nichifor Ioana,43710,4,Director adjunct,Funcții de conducere
+251,6,87,Nica Maria,42370,8,Director adjunct,Funcții de conducere
+252,6,88,Voica Corina,41678,10,Director economic,Funcții de conducere
+253,6,88,Noica Cornelia,44440,2,Director economic,Funcții de conducere
+254,6,89,Năpârcă Iuliana,44601,2,Director general adjunct,Funcții de conducere
+255,6,89,Naghi Florentina,44248,3,Director general adjunct,Funcții de conducere
+256,6,89,Nălucă Diana,40428,13,Director general adjunct,Funcții de conducere
+257,6,90,Iacobescu Cezara,39345,16,Șef serviciu resurse umane,Funcții de conducere
+258,6,90,Ichim Narcis,39658,15,Șef serviciu resurse umane,Funcții de conducere
+259,6,90,Iconar Florin,38240,19,Șef serviciu resurse umane,Funcții de conducere
+260,6,91,Iacov Irina,43336,5,Revizor general SC,Funcții de conducere
+261,6,91,Ianca Raluca,44661,1,Revizor general SC,Funcții de conducere
+262,6,92,Iancului Radu,44395,2,Șef oficiu juridic,Funcții de conducere
+263,6,92,Igar Eduard,43996,3,Șef oficiu juridic,Funcții de conducere
