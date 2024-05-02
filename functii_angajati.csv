@@ -1,0 +1,93 @@
+﻿ID_funcție,ID_sectorAct,Funcția,Salariu_min,Salariu_max,Clasificare Salariu Maxim
+1,1,Vânzător bilete,3455,3520,Primul Interval
+2,1,Acar,3520,3701,Primul Interval
+3,1,Conductor tren,3666,3701,Primul Interval
+4,1,Informator călători,3455,3520,Primul Interval
+5,1,Magazier comercial,3520,3590,Primul Interval
+6,1,Manevrant vagoane,3666,3855,Primul Interval
+7,1,Șef tură la comanda personalului de tren,4532,4630,Al Doilea Interval
+8,1,Șef manevră,3943,4120,Primul Interval
+9,1,Casier cf,3520,4209,Primul Interval
+10,1,Casier cf verificator,4308,4411,Primul Interval
+11,1,Șef tren,3943,4120,Primul Interval
+12,1,Mecanic ajutor locomotivă-automotor,3666,3701,Primul Interval
+13,1,Mecanic locomotivă-automotor,3701,4507,Al Doilea Interval
+14,1,Operator manevră în stații,4507,4829,Al Doilea Interval
+15,1,Operator exploatare,4033,4120,Primul Interval
+16,1,Operator-programator în stații,4033,4308,Primul Interval
+17,1,Revizor tehnic vagoane,4209,4958,Al Doilea Interval
+18,1,Șef tură,5075,5312,Al Doilea Interval
+19,1,Revizor locomotive-automotoare,5075,5312,Al Doilea Interval
+20,1,Operator,4411,5312,Al Doilea Interval
+21,1,Operator legitimații călătorie,4411,4507,Al Doilea Interval
+22,1,Instructor,4724,5423,Al Doilea Interval
+23,1,Mecanic instructor,4724,5694,Al Doilea Interval
+24,1,Conductor vagon de dormit și cușetă,3701,3783,Primul Interval
+25,1,Șef tură la comanda personalului de servire a vagoanelor,4532,4630,Al Doilea Interval
+26,2,Lucrător comercial,3293,3376,Primul Interval
+27,2,Lucrător gestionar cazare,3376,3400,Primul Interval
+28,2,Lucrător gestiune alimentație publică,3293,3376,Primul Interval
+29,3,Operator calculator electronic,3855,3943,Primul Interval
+30,4,Șofer,3783,3783,Primul Interval
+31,5,Funcționar,3376,3400,Primul Interval
+32,5,Șef cabinet,5423,5423,Al Doilea Interval
+33,5,Gestionar materiale,3666,3783,Primul Interval
+34,5,"Tehnician, statistician, inspector resurse umane",3855,4411,Primul Interval
+35,5,Contabil,3590,4411,Primul Interval
+36,5,Maistru,4958,5196,Al Doilea Interval
+37,5,Dispecer circulație,4724,8862,Al Patrulea Interval
+38,5,Inspector de specialitate,4033,6264,Al Doilea Interval
+39,5,"Subinginer, inginer colegiu, economist colegiu",4033,4614,Al Doilea Interval
+40,5,Specialist în relații publice,7039,7943,Al Treilea Interval
+41,5,Auditor intern,4949,8862,Al Patrulea Interval
+42,5,Traducător,4829,6670,Al Doilea Interval
+43,5,"Economist, psiholog",4724,8862,Al Patrulea Interval
+44,5,Inginer,4829,8862,Al Patrulea Interval
+45,5,Specialist resurse umane,6670,8862,Al Patrulea Interval
+46,5,Expert achiziții publice,6670,8862,Al Patrulea Interval
+47,5,Specialist în domeniul calității,6569,8862,Al Patrulea Interval
+48,5,"Analist, programator, inginer sistem",4724,7406,Al Treilea Interval
+49,5,"Inspector învățământ, sociolog",4724,6264,Al Doilea Interval
+50,5,Consilier juridic,4724,8862,Al Patrulea Interval
+51,5,Inspector gestiune,4033,5095,Al Doilea Interval
+52,5,Administrator de sistem,6670,7943,Al Treilea Interval
+53,5,Manager energetic,8275,8510,Al Treilea Interval
+54,5,Asistent director,8862,8862,Al Patrulea Interval
+55,5,Revizor regional SC,6569,7406,Al Treilea Interval
+56,5,Instructor regional,6569,8147,Al Treilea Interval
+57,5,"Revizor regional ticketing, instructor regional ticketing",6569,7406,Al Treilea Interval
+58,5,Expert relații sociale,8510,8510,Al Treilea Interval
+59,5,"Instructor central, revizor central SC",8510,8862,Al Patrulea Interval
+60,5,Analist sisteme salarizare,9682,9682,Al Patrulea Interval
+61,5,Expert economist în gestiunea economică,9682,9892,Al Patrulea Interval
+62,5,Consultant în informatică,9682,9892,Al Patrulea Interval
+63,5,Responsabil cu protecția datelor cu caracter personal,8862,9264,Al Patrulea Interval
+64,5,Șef proiect,11031,10310,Al Patrulea Interval
+65,6,Șef agenție voiaj,5306,5306,Al Doilea Interval
+66,6,Șef post revizie vagoane,5998,6141,Al Doilea Interval
+67,6,Șef atelier,5998,6519,Al Doilea Interval
+68,6,Șef secție administrativă,7336,7517,Al Treilea Interval
+69,6,Șef birou,5553,8671,Al Treilea Interval
+70,6,Șef secție exploatare adjunct,6229,6337,Al Doilea Interval
+71,6,Șef secție exploatare,6377,6681,Al Treilea Interval
+72,6,Șef depou adjunct,6519,7564,Al Treilea Interval
+73,6,Șef depou,6878,9338,Al Patrulea Interval
+74,6,Șef revizie vagoane adjunct,6519,7564,Al Treilea Interval
+75,6,Șef revizie vagoane,6377,9338,Al Patrulea Interval
+76,6,Șef stație adjunct,6681,7564,Al Treilea Interval
+77,6,Șef stație rezervă,6377,6519,Al Doilea Interval
+78,6,Șef stație,6377,9338,Al Patrulea Interval
+79,6,Șef serviciu,9005,11517,Al Patrulea Interval
+80,6,Șef divizie,10368,10755,Al Patrulea Interval
+81,6,Contabil șef,6519,11120,Al Patrulea Interval
+82,6,Șef oficiu,9005,11999,Al Patrulea Interval
+83,6,Șef centru,10368,10755,Al Patrulea Interval
+84,6,Șef centru adjunct,9338,9855,Al Patrulea Interval
+85,6,Manager,10368,10755,Al Patrulea Interval
+86,6,Consilier,9525,12850,Al Patrulea Interval
+87,6,Director adjunct,13555,13555,Al Patrulea Interval
+88,6,Director economic,13433,15950,Al Patrulea Interval
+89,6,Director general adjunct,16857,16857,Al Patrulea Interval
+90,6,Șef serviciu resurse umane,11517,11999,Al Patrulea Interval
+91,6,Revizor general SC,15950,15950,Al Patrulea Interval
+92,6,Șef oficiu juridic,15603,15950,Al Patrulea Interval
