@@ -6,10 +6,10 @@
 # - utilizarea structurilor repetitive; --
 # - importul unei fişier csv sau json în pachetul pandas; --
 # - accesarea datelor cu loc şi iloc;
-# - modificarea datelor în pachetul pandas;
+# - modificarea datelor în pachetul pandas; --
 # - utilizarea funcţiilor de grup;
 # - tratarea valorilor lipsă;
-# - ştergerea de coloane şi înregistrări;
+# - ştergerea de coloane şi înregistrări; --
 # - prelucrări statistice, gruparea şi agregarea datalor în pachetul pandas;
 # - prelucrarea seturilor de date cu merge / join;
 # - reprezentare grafică a datelor cu pachetul matplotlib;
@@ -86,3 +86,18 @@ def rasplata_vechime(row):
 # Aplicarea functiei definite anterior pe fiecare rand din tabela angajati si adaugarea rezultatului in coloana „Rasplata_vechime”
 angajati["Rasplata_vechime"] = angajati.apply(rasplata_vechime, axis=1)
 print(angajati.head().to_string())
+
+# Adaugarea salariului mediu pentru fiecare angajat in tabela angajati in functie de coloana "Nume_Funcție" si salariul mediu din tabela functii_angajati
+angajati["Salariu_mediu"] = angajati["Nume_Funcție"].map(functii_angajati.set_index("Funcția")["Salariu_mediu"])
+print(angajati.head().to_string())
+
+# Calcularea salariului dupa aplicarea rasplatii pentru vechime
+angajati["Salariu_final"] = angajati["Salariu_mediu"] + angajati["Salariu_mediu"] * angajati["Rasplata_vechime"]
+print(angajati.head().to_string())
+
+# Stergerea coloanei „Rasplata_vechime” din tabela angajati
+angajati.drop(columns="Rasplata_vechime", inplace=True)
+print(angajati.head().to_string())
+
+# Generarea statisticilor descriptive pentru salariul final
+print(angajati["Salariu_final"].describe())
