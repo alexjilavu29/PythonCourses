@@ -31,3 +31,32 @@ Feel free to fork this repository and submit pull requests to contribute to the 
 # Roumanian Translation Below
 ---
 
+# Curs de Fundamente Python
+
+## Despre Acest Depozit
+
+Acest depozit conține materiale educaționale pentru învățarea fundamentelor limbajului de programare Python și a bibliotecii pandas. Materialele cursului sunt concepute pentru cei noi în programare sau pentru cei care doresc să își consolideze competențele de bază în Python.
+
+## Conținutul Cursului
+
+- **Bazele Python:** Acoperă variabile, tipuri de date, structuri de control, funcții și gestionarea erorilor.
+- **Introducere în pandas:** Învață manipularea datelor, curățarea datelor și analiza de bază a datelor folosind pandas.
+- **Vizualizarea Datelor:** Introduce vizualizarea datelor folosind bibliotecile matplotlib și seaborn.
+
+## Instalare
+
+Pentru a utiliza aceste materiale, ai nevoie de Python și pandas instalate pe calculatorul tău:
+
+1. Instalează Python: Descarcă și instalează Python de pe [python.org](https://www.python.org/downloads/).
+2. Instalează pandas: Rulează `pip install pandas` în linia de comandă.
+3. Instalează matplotlib: Rulează `pip install matplotlib` în linia de comandă.
+4. Instalează seaborn: Rulează `pip install seaborn` în linia de comandă.
+
+## Utilizare
+
+Fiecare fișier din acest depozit reprezintă o lecție sau un subiect separat. Pur și simplu descarcă fișierele și rulează-le local pentru a învăța Python și pandas pas cu pas.
+
+## Contribuții
+
+Nu ezita să fork-ezi acest depozit și să trimiți pull requests pentru a contribui la conținutul educațional.
+
