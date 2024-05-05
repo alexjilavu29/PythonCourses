@@ -27,3 +27,7 @@ Each file in this repository represents a separate lesson or topic. Simply downl
 
 Feel free to fork this repository and submit pull requests to contribute to the educational content.
 
+
+# Roumanian Translation Below
+---
+
