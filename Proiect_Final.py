@@ -1,3 +1,7 @@
+# PROIECT FINAL PACHETE SOFTWARE
+# AUTORI: JILAVU ALEXANDRU, MEDELEANU RALUCA-ANDRA
+# GRUPA: 1078A
+
 # Programare Python combinate sau individuale, minim 6 dintre următoarele facilităţi:
 # - utilizarea listelor şi a dicţionarelor, incluzând metode specifice acestora; --
 # - utilizarea seturilor şi a tuplurilor, incluzând metode specifice acestora; --
@@ -13,8 +17,7 @@
 # - prelucrări statistice, gruparea şi agregarea datalor în pachetul pandas; --
 # - prelucrarea seturilor de date cu merge / join; --
 # - reprezentare grafică a datelor cu pachetul matplotlib; --
-# - utilizarea pachetului scikit-learn (clusterizare, regresie logistică);
-# - utilizarea pachetului statmodels (regresie multiplă).
+
 
 import pandas as pd
 import matplotlib.pyplot as plt
