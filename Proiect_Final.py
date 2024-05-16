@@ -172,3 +172,43 @@ print("\n")
 angajati_functii = pd.merge(angajati, functii_angajati, on="ID_funcție")
 # Vom afisa doar coloanele "Num_prenume", "Nume_Funcție" si "Nume_Sector"
 print(angajati_functii[["Nume_prenume", "Funcția", "Nume_Sector"]].to_string())
+
+
+# Utilizarea bibliotecii scikit-learn pentru a realiza o clusterizare
+from sklearn.cluster import KMeans
+
+# Vom folosi coloanele „Vechime” si „Salariu_final” pentru a realiza clusterizarea
+X = angajati[["Vechime", "Salariu_final"]]
+kmeans = KMeans(n_clusters=3)
+kmeans.fit(X)
+
+angajati["Cluster"] = kmeans.labels_
+# Vom afisa numele angajatilor si clusterul din care fac parte
+print(angajati[["Nume_prenume", "Cluster"]].to_string())
+print("\n")
+
+# Vom afisa numarul de angajati din fiecare cluster
+print(angajati["Cluster"].value_counts())
+print("\n")
+
+
+# Vom afisa grafic clusterizarea realizata
+plt.figure(figsize=(10, 6))
+plt.scatter(angajati["Vechime"], angajati["Salariu_final"], c=angajati["Cluster"], cmap='viridis')
+plt.title('Clusterizare Angajati')
+plt.xlabel('Vechime')
+plt.ylabel('Salariu Final')
+plt.show()
+
+
+# Utilizarea pachetului statmodels pentru realizarea unei regresii multiple
+import statsmodels.api as sm
+
+# Vom folosi coloanele „Vechime” si „Salariu_final” pentru a realiza regresia
+X = angajati[["Vechime"]]
+X = sm.add_constant(X)
+y = angajati["Salariu_final"]
+# Vom folosi functia OLS pentru a realiza regresia
+model = sm.OLS(y, X).fit()
+print(model.summary())
+print("\n")
