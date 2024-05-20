@@ -56,7 +56,3 @@ Pentru a utiliza aceste materiale, ai nevoie de Python și pandas instalate pe c
 
 Fiecare fișier din acest depozit reprezintă o lecție sau un subiect separat. Pur și simplu descarcă fișierele și rulează-le local pentru a învăța Python și pandas pas cu pas.
 
-## Contribuții
-
-Nu ezita să fork-ezi acest depozit și să trimiți pull requests pentru a contribui la conținutul educațional.
-
