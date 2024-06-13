@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8150dd25-6d35-42b5-bf08-277a6fcef3ab" name="Changes" comment="" />
+    <list default="true" id="8150dd25-6d35-42b5-bf08-277a6fcef3ab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/exam_recap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,24 +35,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Proiect_Final.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Recap_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.S6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.S6_EX.executor&quot;: &quot;Run&quot;,
-    &quot;Python.S6_exercitii_aditionale.executor&quot;: &quot;Run&quot;,
-    &quot;Python.S7_EX.executor&quot;: &quot;Run&quot;,
-    &quot;Python.S8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.seminar_4_ex.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Proiect_Final.executor": "Run",
+    "Python.Recap_Test.executor": "Run",
+    "Python.S6.executor": "Run",
+    "Python.S6_EX.executor": "Run",
+    "Python.S6_exercitii_aditionale.executor": "Run",
+    "Python.S7_EX.executor": "Run",
+    "Python.S8.executor": "Run",
+    "Python.Test.executor": "Run",
+    "Python.exam_recap.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.seminar_4_ex.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Courses" />
